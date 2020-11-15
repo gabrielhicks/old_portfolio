@@ -1,16 +1,9 @@
-import logo from './gabriel.png';
 import './App.css';
+import Index from './components/Index/Index'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Coming soon...
-        </p>
-      </header>
-    </div>
+    <Index />
   );
 }
 
