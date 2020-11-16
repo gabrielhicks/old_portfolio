@@ -160,7 +160,7 @@ export const NavMenu = styled.div`
         opacity: 1;
 
         &.active {
-            display: table;
+            display: inline-table;
             background-color: rgba(110, 110, 110, 0.7);
             right: 0;
             opacity: 1;
