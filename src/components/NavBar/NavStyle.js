@@ -152,7 +152,7 @@ export const NavMenu = styled.div`
     @media screen and (max-width: 768px) {
         display: none;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         height: 99vh;
         position: absolute;
         top: 56px;
