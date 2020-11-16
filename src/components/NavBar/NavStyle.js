@@ -147,6 +147,7 @@ export const NavMenu = styled.div`
     grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
     list-style: none;
+    align-items: center; 
     text-align: center;
     justify-content: flex-end;
     @media screen and (max-width: 768px) {
@@ -170,16 +171,10 @@ export const NavMenu = styled.div`
 `
 
 export const NavItem = styled.li`
-    b.cart {
-        color: red;
-    }
     display: flex;
     align-items: center;
     height: 40px;
     @media screen and (max-width: 768px) {
-        b.cart {
-        color: red;
-        }
         height: 60px;
     }
 `
