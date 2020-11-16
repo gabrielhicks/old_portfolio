@@ -47,54 +47,28 @@ class Navbar extends React.Component {
     render() {
         return (
         <>
-            {this.props.user 
-            ? 
             <Nav>
-                <NavLogo onClick={this.closeMenu} to="/"><img alt="rPlants logo" src="https://i.ibb.co/LgQ2LHK/icon.webp"/><img alt="rPlants" src="https://i.ibb.co/Bs6LN5h/Rplants.webp"/></NavLogo>
+                <NavLogo onClick={this.closeMenu} to="/"><img alt="Gabriel Hicks logo" src="https://i.ibb.co/4FcHSGV/gabriel-logo.webp"/></NavLogo>
                 <MenuIcon onClick={this.clickHandler}>
                     {this.state.clicked ? <Times /> : <Bars />}
                 </MenuIcon>
                 {this.state.clicked ? 
                     <NavMenu className="active">
-                    <NavItem><NavLink onClick={this.closeMenu} to="/plants">store</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/profile">profile</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenuLogOut} to="/">sign out</NavLink></NavItem>
-                    <NavItem><NavLinkMobile onClick={this.closeMenu} to="/cart">cart({this.props.cart.length > 0 ? <b className="cart">{this.itemCount()}</b> : 0})</NavLinkMobile></NavItem>
-                    </NavMenu>
-                :
-                    <NavMenu>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/plants">store</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/profile">profile</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/cart">cart({this.props.cart.length > 0 ? <b className="cart"> {this.itemCount()}</b>  : 0})</NavLink></NavItem>
-                    </NavMenu>
-                }
-                <NavBtn>
-                    <NavBtnLink to="/" onClick={this.props.logoutHandler}>sign out</NavBtnLink>
-                </NavBtn>
-            </Nav>
-                :
-            <Nav>
-                <NavLogo onClick={this.closeMenu} to="/"><img alt="rPlants logo" src="https://i.ibb.co/LgQ2LHK/icon.webp"/><img alt="rPlants" src="https://i.ibb.co/Bs6LN5h/Rplants.webp"/></NavLogo>
-                <MenuIcon onClick={this.clickHandler}>
-                    {this.state.clicked ? <Times /> : <Bars />}
-                </MenuIcon>
-                {this.state.clicked ? 
-                    <NavMenu className="active">
-                    <NavItem><NavLink onClick={this.closeMenu} to="/plants">store</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/login">log in</NavLink></NavItem>
-                    <NavItem><NavLinkMobile onClick={this.closeMenu} to="/cart">cart({this.props.cart.length > 0 ? <b className="cart">{this.itemCount()}</b> : 0})</NavLinkMobile></NavItem>
+                    <NavItem><NavLink onClick={this.closeMenu} to="/projects">Projects</NavLink></NavItem>
+                    <NavItem><NavLink onClick={this.closeMenu} to="/about">About Me</NavLink></NavItem>
+                    <NavItem><NavLinkMobile onClick={this.closeMenu} to="/contact">Contact</NavLinkMobile></NavItem>
                     </NavMenu>
                 : 
                     <NavMenu>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/plants">store</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/cart">cart({this.props.cart.length > 0 ? <b className="cart"> {this.itemCount()}</b>  : 0})</NavLink></NavItem>
+                    <NavItem><NavLink onClick={this.closeMenu} to="/projects">Projects</NavLink></NavItem>
+                    <NavItem><NavLink onClick={this.closeMenu} to="/about">About Me</NavLink></NavItem>
+                    <NavItem><NavLink onClick={this.closeMenu} to="/contact">Contact</NavLink></NavItem>
                     </NavMenu>
                 }
-                <NavBtn>
+                {/* <NavBtn>
                     <NavBtnLink to='/login'>sign in</NavBtnLink>
-                </NavBtn>
+                </NavBtn> */}
             </Nav>
-            }
             </>
         )
     }

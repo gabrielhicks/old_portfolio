@@ -4,14 +4,14 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
+    background-color: rgba(110, 110, 110, 1);
+    display: block;
+    top: 0px;
     box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
-    background-color: rgba(149, 176, 113, 0.7);
     height: 40px;
-    display: flex;
-    top: 0;
     justify-content: flex-end;
     padding: 0.5rem;
-    padding-right: 150px;
+    padding-right: 0;
     z-index: 10;
     position: sticky;
 `
@@ -20,12 +20,12 @@ export const NavLogo = styled(Link)`
     img {
         height: 40px;
     }
+    margin-top: 2px;
     white-space: nowrap;
     color: rgba(57, 54, 38, 1);
     position: absolute;
     left: 0;
-    margin-top: 2px;
-    margin-left: 15px;
+    margin-left: 5px;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.5rem;
@@ -37,41 +37,38 @@ export const NavLogo = styled(Link)`
 `
 
 export const NavLink = styled(Link)`
-    color: #fff;
-    b.cart {
-        color: red;
-    }
+    color: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    height: 100%;
+    height: 56px;
     cursor: pointer;
     &.active {
-        color: rgba(57, 54, 38, 1);
+        color: rgba(0, 0, 0, 1);
     }
     &:hover {
-        b.cart {
-        color: red;
-        }
-        background-color: rgba(100, 114, 97, 1);
-        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 1);
+        ${'' /* border-radius: 4px; */}
         transition: all 0.2s ease-out;
     }
     @media screen and (max-width: 768px) {
         b.cart {
         color: red;
         }
+        height: auto;
         text-align: center;
         padding: 1.5rem;
         width: 100%;
         display: table;
+        ${'' /* margin-top: 5px;
+        margin-bottom: 15px; */}
 
         &:hover {
             b.cart {
         color: red;
         }
-            background: rgba(181, 181, 161, 1);
+            background-color: rgba(0, 0, 0, 1);
             border-radius: 0;
         }
     }
@@ -85,9 +82,10 @@ export const NavLinkMobile = styled(Link)`
         text-align: center;
         padding: 1.2rem;
         margin: 2rem auto;
+        margin-top: 43px;
         border-radius: 4px;
         width: 80%;
-        background: rgba(147, 141, 123, 1);
+        background: rgba(110, 110, 110, 1);
         text-decoration: none;
         color: #fff;
         font-size: 1.2rem;
@@ -98,8 +96,8 @@ export const NavLinkMobile = styled(Link)`
             box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
         }
         &:hover {
-            background: rgba(181, 181, 161, 1);
-            color: rgba(57, 54, 38, 1);
+            background: rgba(0, 0, 0, 1);
+            color: rgba(255, 255, 255, 1);
             transition: 250ms;
         }
     }
@@ -120,7 +118,7 @@ export const MenuIcon = styled.div`
 
 export const Bars = styled(FaBars)`
     display: none;
-    color: rgba(57, 54, 38, 1);
+    color: rgba(0, 0, 0, 1);
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
@@ -139,37 +137,33 @@ export const Times = styled(FaTimes)`
         top: 0;
         right: 0;
         transform: translate(-100%, 75%);
-        color: rgba(57, 54, 38, 1);
+        color: rgba(0, 0, 0, 1);
         font-size: 1.4rem;
     }
 `
 
 export const NavMenu = styled.div`
-    display: grid;
-    grid-template-columns: repeat(5, auto);
+    display: flex;
+    grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
-    justify-content: end;
-    margin-left: 2rem;
+    justify-content: flex-end;
     @media screen and (max-width: 768px) {
         display: none;
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        height: 99vh;
         position: absolute;
         top: 56px;
-        right: -120%;
+        ${'' /* right: -120%; */}
         opacity: 1;
-        transition: all 0.5s ease;
 
         &.active {
-            display: flex;
-            background: rgba(100, 114, 97, 0.9);
+            display: table;
+            background-color: rgba(110, 110, 110, 0.7);
             right: 0;
             opacity: 1;
-            transition: all 0.5s ease;
             z-index: 1;
         }
     }
@@ -191,18 +185,18 @@ export const NavItem = styled.li`
 `
 
 export const NavBtn = styled.nav`
-    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+    ${'' /* box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
     display: flex;
     align-items: center;
     position: absolute;
     right: 15px;
     @media screen and (max-width: 768px) {
         display: none;
-    }
+    } */}
 `
 
 export const NavBtnLink = styled(Link)`
-    border-radius: 4px;
+    ${'' /* border-radius: 4px;
     background: rgba(147, 141, 123, 1);
     padding: 11px 40px;
     color: #fff;
@@ -222,7 +216,7 @@ export const NavBtnLink = styled(Link)`
         -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    }
+    } */}
 `
 
 // export const DropdownWrapper = styled.ul`
