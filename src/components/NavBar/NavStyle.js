@@ -45,7 +45,7 @@ export const NavLink = styled(Link)`
     height: 56px;
     cursor: pointer;
     &.active {
-        color: rgba(0, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
     }
     &:hover {
         background-color: rgba(0, 0, 0, 1);
