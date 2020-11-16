@@ -60,7 +60,7 @@ export const NavLink = styled(Link)`
         text-align: center;
         padding: 1.5rem;
         width: 100%;
-        display: table;
+        display: table-column;
         ${'' /* margin-top: 5px;
         margin-bottom: 15px; */}
 
