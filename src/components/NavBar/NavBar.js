@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink, NavLogo, NavLinkMobile, MenuIcon, Times, NavItem } from './NavStyle';
+import { Nav, NavLink, Bars, NavMenu, NavLogo, NavLinkMobile, MenuIcon, Times, NavItem } from './NavStyle';
 
 class Navbar extends React.Component {
     state = {

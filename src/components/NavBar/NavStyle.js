@@ -184,40 +184,40 @@ export const NavItem = styled.li`
     }
 `
 
-export const NavBtn = styled.nav`
-    ${'' /* box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 15px;
-    @media screen and (max-width: 768px) {
-        display: none;
-    } */}
-`
+// export const NavBtn = styled.nav`
+//     box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+//     display: flex;
+//     align-items: center;
+//     position: absolute;
+//     right: 15px;
+//     @media screen and (max-width: 768px) {
+//         display: none;
+//     }
+// `
 
-export const NavBtnLink = styled(Link)`
-    ${'' /* border-radius: 4px;
-    background: rgba(147, 141, 123, 1);
-    padding: 11px 40px;
-    color: #fff;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    white-space: nowrap;
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: rgba(181, 181, 161, 1);
-        color: rgba(57, 54, 38, 1);
-    }
-    &:active {
-        letter-spacing: 0.5px;
-        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    } */}
-`
+// export const NavBtnLink = styled(Link)`
+//     border-radius: 4px;
+//     background: rgba(147, 141, 123, 1);
+//     padding: 11px 40px;
+//     color: #fff;
+//     outline: none;
+//     border: none;
+//     cursor: pointer;
+//     transition: all 0.2s ease-in-out;
+//     text-decoration: none;
+//     white-space: nowrap;
+//     &:hover {
+//         transition: all 0.2s ease-in-out;
+//         background: rgba(181, 181, 161, 1);
+//         color: rgba(57, 54, 38, 1);
+//     }
+//     &:active {
+//         letter-spacing: 0.5px;
+//         -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+//         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+//         box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+//     }
+// `
 
 // export const DropdownWrapper = styled.ul`
 //     li {
