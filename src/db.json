@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Tutorial Heaven",
+        "image": "",
+        "image2": "",
+        "front": "",
+        "back": "",
+        "description": "Coming soon...",
+        "tech": "",
+        "url": ""
+    },
+    {
+        "id": 2,
+        "name": "rPlants",
+        "image": "",
+        "image2": "",
+        "front": "https://github.com/gabrielhicks/rplants-front",
+        "back": "https://github.com/gabrielhicks/rplants-back",
+        "description": "E-commerce platform to connect users to environmentally conscious sourced houseplants",
+        "tech": "React, Rails, styled-components, CSS, HTML, PostgreSQL, JWT, Leaflet, OSM, GeoJSON, BCrypt, PayPal API",
+        "url": "https://rplants.netlify.app/"
+    },
+    {
+        "id": 3,
+        "name": "Synthwave",
+        "image": "",
+        "image2": "",
+        "front": "https://github.com/gabrielhicks/synthwave-frontend",
+        "back": "https://github.com/gabrielhicks/synthwaveheroku",
+        "description": "JavaScript / Rails interactive keyboard where users can play, record, and share music they create",
+        "tech": "JavaScript, Rails, S3, ActiveStorage, WebAudio API, HTML Canvas, CSS, PostgreSQL",
+        "url": "https://synthwavejs.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "YouPlay",
+        "image": "",
+        "image2": "",
+        "front": "https://github.com/gabrielhicks/YouPlay_postgreSQL",
+        "back": "https://github.com/gabrielhicks/YouPlay_postgreSQL",
+        "description": "Ruby on Rails application that allows a user to search for their favorite videos online",
+        "tech": "Ruby on Rails, CSS, jQuery, Bootstrap, YouTube API, BCrypt, Sqlite3",
+        "url": "https://you-play-heroku.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name": "Personal Portfolio",
+        "image": "",
+        "image2": "",
+        "front": "",
+        "back": "",
+        "description": "Gabriel Hicks' Personal Website",
+        "tech": "",
+        "url": "https://www.gabrielhicks.dev/"
+    },
+    {
+        "id": 6,
+        "name": "Literally Just Vibing",
+        "image": "",
+        "image2": "",
+        "front": "",
+        "back": "https://github.com/gabrielhicks/literallyjustvibing",
+        "description": "A Ruby CLI application that generates playlists based off mood via Spotify API",
+        "tech": "Ruby, Spotify API",
+        "url": "https://github.com/gabrielhicks/literallyjustvibing"
+    },
+    {
+        "id": 7,
+        "name": "Hacktoberfest Flask Store",
+        "image": "",
+        "image2": "",
+        "front": "https://github.com/gabrielhicks/flask-online-store",
+        "back": "",
+        "description": "E commerce store management and order placing system API",
+        "tech": "Python, SQLAlchemy, Flask, Github OAuth",
+        "url": "https://github.com/gabrielhicks/flask-online-store"
+    },
+    {
+        "id": 8,
+        "name": "Hacktoberfest Alt-Text",
+        "image": "",
+        "image2": "",
+        "front": "https://github.com/gabrielhicks/wildaid.github.io",
+        "back": "",
+        "description": "O-FISH is a multi-platform application that enables officers to browse and record boarding report data from their mobile devices",
+        "tech": "HTML",
+        "url": "https://wildaid.github.io/"
+    }
+]

@@ -1,6 +1,6 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar'
-import Index from './components/Index/Index'
+import NavBar from './components/NavBar'
+import Index from './components/Index'
 
 function App() {
   return (
