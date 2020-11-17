@@ -6,7 +6,9 @@ export const ProjectCard = styled.div`
     width: 85vw;
     transition: 0.3s;
     margin: auto;
-    cursor: pointer;
+    a {
+        cursor: pointer;
+    }
     flex-direction: column;
     justify-content: center;
     text-align: center;
