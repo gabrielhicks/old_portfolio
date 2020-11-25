@@ -17,6 +17,9 @@ export const ProjectCard = styled.div`
     &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
+    p {
+        margin: 8px;
+    }
     @media (max-width: 800px) {
         margin-bottom: 3vh;
         height: 50vh;
