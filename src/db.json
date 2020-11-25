@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "name": "Tutorial Heaven",
+        "name": "Tutorial Heaven ( in progress )",
         "image": "",
         "image2": "",
         "front": "",
         "back": "",
         "description": "Coming soon...",
-        "tech": "",
-        "url": ""
+        "tech": "React, Redux, Rails, Framer Motion, PostgreSQL, JWT",
+        "url": "https://www.youtube.com/watch?v=rJipwv0ShF8&feature=youtu.be"
     },
     {
         "id": 2,
