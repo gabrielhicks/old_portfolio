@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Tutorial Heaven ( in progress )",
+        "name": "Tutorial Heaven",
         "image": "",
-        "video_url": "https://youtu.be/rJipwv0ShF8",
-        "front": "",
-        "back": "",
-        "description": "Coming soon...",
-        "tech": "React, Redux, Rails, Framer Motion, PostgreSQL, JWT",
+        "video_url": "https://youtu.be/H87iCP8XYHU",
+        "front": "https://github.com/gabrielhicks/tutorial-heaven",
+        "back": "https://github.com/gabrielhicks/tutorial_heaven_api",
+        "description": "Web forum with live chat designed to encourage new developers to collaborate on projects.",
+        "tech": "React, Redux, Rails, Framer Motion, PostgreSQL, JWT, BCryrpt, ActionCable",
         "url": ""
     },
     {
