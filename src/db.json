@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Tutorial Heaven",
-        "image": "",
+        "image": "https://i.ibb.co/P5yXX5f/th.webp",
         "video_url": "https://youtu.be/H87iCP8XYHU",
         "front": "https://github.com/gabrielhicks/tutorial-heaven",
         "back": "https://github.com/gabrielhicks/tutorial_heaven_api",
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "name": "rPlants",
-        "image": "",
+        "image": "https://i.ibb.co/vB5WMTn/rplants.webp",
         "video_url": "https://youtu.be/U8aKwmJFAq4",
         "front": "https://github.com/gabrielhicks/rplants-front",
         "back": "https://github.com/gabrielhicks/rplants-back",
@@ -24,7 +24,7 @@
     {
         "id": 3,
         "name": "Synthwave",
-        "image": "",
+        "image": "https://i.ibb.co/wW8gpVZ/sw.webp",
         "video_url": "https://youtu.be/HsbjB8s-tSU",
         "front": "https://github.com/gabrielhicks/synthwave-frontend",
         "back": "https://github.com/gabrielhicks/synthwaveheroku",
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "name": "YouPlay",
-        "image": "",
+        "image": "https://i.ibb.co/QMR2Pvt/youplay.webp",
         "video_url": "https://youtu.be/w7D92edjc4I",
         "front": "https://github.com/gabrielhicks/YouPlay_postgreSQL",
         "back": "",
@@ -45,19 +45,8 @@
     },
     {
         "id": 5,
-        "name": "Personal Portfolio",
-        "image": "",
-        "video_url": "",
-        "front": "",
-        "back": "",
-        "description": "Gabriel Hicks' Personal Website",
-        "tech": "",
-        "url": "https://www.gabrielhicks.dev/"
-    },
-    {
-        "id": 6,
         "name": "Literally Just Vibing",
-        "image": "",
+        "image": "https://i.ibb.co/tzJmCFr/litvibin.webp",
         "video_url": "",
         "front": "",
         "back": "https://github.com/gabrielhicks/literallyjustvibing",
@@ -66,36 +55,47 @@
         "url": "https://github.com/gabrielhicks/literallyjustvibing"
     },
     {
-        "id": 7,
-        "name": "Open Source Contribution - Spicy Green Book",
-        "image": "",
+        "id": 6,
+        "name": "Spicy Green Book",
+        "image": "https://i.ibb.co/YTMB7q2/spicy.webp",
         "video_url": "",
         "front": "https://github.com/spicygreenbook/greenbook-app",
         "back": "",
-        "description": "A directory of local black-owned businesses that users can find to support",
+        "description": "Open Source Contribution - A directory of local black-owned businesses that users can find to support",
         "tech": "React, React Native, HTML, CSS",
         "url": "https://spicygreenbook.org/"
     },
     {
-        "id": 8,
-        "name": "Open Source Contribution - Flask Store",
-        "image": "",
+        "id": 7,
+        "name": "Flask Store",
+        "image": "https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg",
         "video_url": "",
         "front": "https://github.com/gabrielhicks/flask-online-store",
         "back": "",
-        "description": "E commerce store management and order placing system API",
+        "description": "Open Source Contribution - E commerce store management and order placing system API",
         "tech": "Python, SQLAlchemy, Flask, Github OAuth",
         "url": "https://github.com/gabrielhicks/flask-online-store"
     },
     {
-        "id": 9,
-        "name": "Open Source Contribution - Alt-Text",
-        "image": "",
+        "id": 8,
+        "name": "Alt-Text",
+        "image": "https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg",
         "video_url": "",
         "front": "https://github.com/gabrielhicks/wildaid.github.io",
         "back": "",
-        "description": "O-FISH is a multi-platform application that enables officers to browse and record boarding report data from their mobile devices",
+        "description": "Open Source Contribution - O-FISH is a multi-platform application that enables officers to browse and record boarding report data from their mobile devices",
         "tech": "HTML",
         "url": "https://wildaid.github.io/"
+    },
+    {
+        "id": 9,
+        "name": "Personal Portfolio",
+        "image": "https://i.ibb.co/4FcHSGV/gabriel-logo.webp",
+        "video_url": "",
+        "front": "",
+        "back": "",
+        "description": "Gabriel Hicks' Personal Website",
+        "tech": "",
+        "url": "https://www.gabrielhicks.dev/"
     }
 ]

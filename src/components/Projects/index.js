@@ -1,13 +1,22 @@
 import React from 'react'
 import {connect} from 'react-redux'
+import Grid from '@material-ui/core/Grid'
 import Project from '../Project/index'
-import {ProjectContainer} from './style'
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+    root: {
+        paddingLeft: "40px",
+        paddingRight: "40px"
+    }
+});
 
 function Projects(props) {
+    const classes = useStyles();
     return (
-        <ProjectContainer>
-            {props.projects.map(project => <Project project={project}/>)}
-        </ProjectContainer>
+        <Grid container spacing={4} className={classes.root}>
+            {props.projects.map(project => <Grid item xs={12} sm={6} md={4}><Project project={project}/></Grid>)}
+        </Grid>
     )
 }
 
