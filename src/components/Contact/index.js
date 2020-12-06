@@ -67,8 +67,8 @@ export default function Contact() {
             </StyledForm>
             </StyledGrid>
             <SocialIcons>
-                <Button  target="_blank" href="https://www.github.com/gabrielhicks/" color="inherit"><GitHubIcon style={{fontSize: "10vw", cursor: "pointer"}}></GitHubIcon></Button>
                 <Button target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/" color="inherit"><LinkedInIcon style={{fontSize: "10vw", cursor: "pointer"}}></LinkedInIcon></Button>
+                <Button  target="_blank" href="https://www.github.com/gabrielhicks/" color="inherit"><GitHubIcon style={{fontSize: "10vw", cursor: "pointer"}}></GitHubIcon></Button>
                 <Button target="_blank" href="https://gabrielhicks.medium.com/" color="inherit"><MenuBookIcon style={{fontSize: "10vw", cursor: "pointer"}}></MenuBookIcon></Button>
             </SocialIcons>
             </MediaGrid>
