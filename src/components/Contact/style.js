@@ -29,15 +29,18 @@ export const StyledGrid = styled.div`
     @media only screen and (max-width: 900px) {
         width: 80vw;
         grid-column: 1;
-        margin-left: 0vw;
+        margin-left: 30px;
         grid-row: 1;
-        height: 60vh;
-        margin-right: 0vw;
+        height: 100%;
+        margin-right: 10vw;
     }
 `
 
 export const StyledForm = styled.form`
+    min-height: 100%;
+    border-radius: 4px;
     grid-row: 2;
+    background-color: rgba(110, 110, 110, 1);
     grid-column: 1;
     display: inline-grid;
 `
@@ -137,19 +140,27 @@ export const SocialIcons = styled.div`
     width: 40vw;
     height: 60vh;
     @media only screen and (max-width: 900px) {
-        bottom: 0;
         grid-row: 2;
         grid-column: 1;
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 0px;
         height: 15vh;
         display: inline;
         text-align: center;
     }
 `
 
+export const MobileFormGrid = styled.div`
+
+`
+
+export const MobileIconsGrid = styled.div`
+
+`
+
 export const MediaGrid = styled.div`
     display: grid;
+    align-items: end;
     margin-top: 15vh;
     margin-bottom: 15vh;
     @media only screen and (max-width: 900px) {

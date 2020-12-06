@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Tutorial Heaven",
+        "image2": "",
         "image": "https://i.ibb.co/P5yXX5f/th.webp",
         "video_url": "https://youtu.be/H87iCP8XYHU",
         "front": "https://github.com/gabrielhicks/tutorial-heaven",
@@ -13,6 +14,7 @@
     {
         "id": 2,
         "name": "rPlants",
+        "image2": "",
         "image": "https://i.ibb.co/vB5WMTn/rplants.webp",
         "video_url": "https://youtu.be/U8aKwmJFAq4",
         "front": "https://github.com/gabrielhicks/rplants-front",
@@ -24,6 +26,7 @@
     {
         "id": 3,
         "name": "Synthwave",
+        "image2": "",
         "image": "https://i.ibb.co/wW8gpVZ/sw.webp",
         "video_url": "https://youtu.be/HsbjB8s-tSU",
         "front": "https://github.com/gabrielhicks/synthwave-frontend",
@@ -35,6 +38,7 @@
     {
         "id": 4,
         "name": "YouPlay",
+        "image2": "",
         "image": "https://i.ibb.co/QMR2Pvt/youplay.webp",
         "video_url": "https://youtu.be/w7D92edjc4I",
         "front": "https://github.com/gabrielhicks/YouPlay_postgreSQL",
@@ -46,6 +50,7 @@
     {
         "id": 5,
         "name": "Literally Just Vibing",
+        "image2": "",
         "image": "https://i.ibb.co/tzJmCFr/litvibin.webp",
         "video_url": "",
         "front": "",
@@ -57,6 +62,7 @@
     {
         "id": 6,
         "name": "Spicy Green Book",
+        "image2": "",
         "image": "https://i.ibb.co/YTMB7q2/spicy.webp",
         "video_url": "",
         "front": "https://github.com/spicygreenbook/greenbook-app",
@@ -68,6 +74,7 @@
     {
         "id": 7,
         "name": "Flask Store",
+        "image2": "",
         "image": "https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg",
         "video_url": "",
         "front": "https://github.com/gabrielhicks/flask-online-store",
@@ -79,6 +86,7 @@
     {
         "id": 8,
         "name": "Alt-Text",
+        "image2": "",
         "image": "https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg",
         "video_url": "",
         "front": "https://github.com/gabrielhicks/wildaid.github.io",
@@ -90,6 +98,7 @@
     {
         "id": 9,
         "name": "Personal Portfolio",
+        "image2": "",
         "image": "https://i.ibb.co/4FcHSGV/gabriel-logo.webp",
         "video_url": "",
         "front": "",

@@ -16,6 +16,9 @@ const useStyles = makeStyles({
         minHeight: "424px",
         margin: "auto"
     },
+    '& .MuiTouchRipple-root': {
+        maxWidth: "200%"
+    },
     media: {
         height: 240,
     },
@@ -28,7 +31,7 @@ export default function Project(props) {
             <CardMedia
                 className={classes.media}
                 image={`${props.project.image}`}
-                title="Contemplative Reptile"
+                title={`${props.project.title}`}
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
@@ -40,7 +43,7 @@ export default function Project(props) {
             </CardContent>
         </CardActionArea>
             <BottomCardActions>
-                {props.project.video_url.length !== 0 ? <ButtonStyled target="_blank" rel="noreferrer" alt="Hosted website" href={props.project.video_url}><YouTubeIcon/>&nbsp;YouTube</ButtonStyled> : null}
+                {props.project.video_url.length !== 0 ? <ButtonStyled target="_blank" rel="noreferrer" alt="Hosted website" href={props.project.video_url}><YouTubeIcon/>&nbsp;Video</ButtonStyled> : null}
                 {props.project.url.length !== 0 ? <ButtonStyled target="_blank" rel="noreferrer" alt="Hosted website" href={props.project.url}><WebIcon/>&nbsp;Demo</ButtonStyled> : null }
                 {props.project.front.length !== 0 ? <ButtonStyled target="_blank" rel="noreferrer" alt="Frontend Repo" href={props.project.front}><GitHubIcon/>&nbsp;Front</ButtonStyled> : null }
                 {props.project.back.length !== 0 ? <ButtonStyled target="_blank" rel="noreferrer" alt="Backend Repo" href={props.project.back}><GitHubIcon/>&nbsp;Back</ButtonStyled> : null }
