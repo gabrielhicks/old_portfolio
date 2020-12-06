@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 
 export const HeroContainer = styled.div`
-    position: relative;
     background-color: black;
+    background-image: url("https://i.ibb.co/7znprpx/ezgif-com-gif-maker-1.webp");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
     height: 70vh;
     display: flex;
     max-height: 1300px;
