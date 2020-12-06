@@ -72,7 +72,7 @@
         "video_url": "",
         "front": "https://github.com/gabrielhicks/flask-online-store",
         "back": "",
-        "description": "Open Source Contribution - E commerce store management and order placing system API",
+        "description": "E commerce store management and order placing system API",
         "tech": "Python, SQLAlchemy, Flask, Github OAuth",
         "url": "https://github.com/gabrielhicks/flask-online-store"
     },
@@ -83,7 +83,7 @@
         "video_url": "",
         "front": "https://github.com/gabrielhicks/wildaid.github.io",
         "back": "",
-        "description": "Open Source Contribution - O-FISH is a multi-platform application that enables officers to browse and record boarding report data from their mobile devices",
+        "description": "O-FISH is a multi-platform application that enables officers to browse and record boarding report data from their mobile devices",
         "tech": "HTML",
         "url": "https://wildaid.github.io/"
     },

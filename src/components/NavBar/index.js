@@ -31,8 +31,8 @@ export default function NavBar() {
                 <IconButton edge="start" className={classes.menuButton} color="inherit" href="https://www.gabrielhicks.dev/" aria-label="Gabriel Hicks Icon">
                     <NavIcon width="40px" alt="Gabriel Hicks logo" src="https://i.ibb.co/4FcHSGV/gabriel-logo.webp"/>
                 </IconButton>
-                <Typography variant="h5" style={{fontWeight: "300"}} className={classes.title}>
-                    Gabriel Hicks
+                <Typography variant="h1" alt="Gabriel Hicks" aria-label="Gabriel Hicks" style={{fontWeight: "300", fontSize: "12px"}} className={classes.title}>
+                    {/* Gabriel Hicks */}
                 </Typography>
                 <Button color="black" target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/">LinkedIn</Button><Button target="_blank" href="https://www.github.com/gabrielhicks/" color="black">Github</Button><Button target="_blank" href="https://gabrielhicks.medium.com/" color="black">Blog</Button>
                 </Toolbar>
