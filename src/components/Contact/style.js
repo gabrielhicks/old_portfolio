@@ -29,6 +29,7 @@ export const StyledGrid = styled.div`
     @media only screen and (max-width: 900px) {
         width: 80vw;
         grid-column: 1;
+        margin-left: 0vw;
         grid-row: 1;
         height: 60vh;
         margin-right: 0vw;
