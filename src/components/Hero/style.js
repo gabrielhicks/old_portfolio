@@ -16,4 +16,7 @@ export const Title = styled.h1`
     left: 66px;
     color: white;
     font-size: 7vw;
+    @media only screen and (max-width: 900px) {
+        left: 33px;
+    }
 `
