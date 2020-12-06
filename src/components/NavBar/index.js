@@ -1,77 +1,42 @@
 import React from 'react';
-import { Nav, NavLink, Bars, NavMenu, NavLogo, NavLinkMobile, MenuIcon, Times, NavItem } from './NavStyle';
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import {NavIcon} from './style';
 
-class Navbar extends React.Component {
-    state = {
-        clicked: false
-    }
+const useStyles = makeStyles((theme) => ({
+    root: {
+        backgroundColor: "rgba(110, 110, 110, 1)",
+        flexGrow: 1,
+    },
+    menuButton: {
+        color: "black",
+        marginRight: theme.spacing(2),
+    },
+    title: {
+        color: "black",
+        flexGrow: 1,
+    },
+}));
 
-    clickHandler = () => {
-        this.setState(()=>({clicked: !this.state.clicked}))
-    }
-
-    closeMenu = () => {
-        this.setState(()=>({clicked: false}))
-    }
-
-    closeMenuLogOut = (e) => {
-        this.setState(()=>({clicked: false}))
-        this.props.logoutHandler(e)
-    }
-
-    onMouseEnter = () => {
-        if (window.innerWidth < 960) {
-            this.setState(()=>({dropdown: false}))
-        } else {
-            this.setState(()=>({dropdown: true}))
-        }
-    };
-
-    onMouseLeave = () => {
-        if (window.innerWidth < 960) {
-            this.setState(()=>({dropdown: false}))
-        } else {
-            this.setState(()=>({dropdown: true}))
-        }
-    }
-
-    itemCount = () => {
-        let items = 0;
-        for (const item of this.props.cart) {
-            items += parseInt(item.quantity)
-        }
-        return items
-    }
-
-
-    render() {
+export default function NavBar() {
+    const classes = useStyles();
         return (
-        <>
-            <Nav>
-                <NavLogo onClick={this.closeMenu} to="/"><img alt="Gabriel Hicks logo" src="https://i.ibb.co/4FcHSGV/gabriel-logo.webp"/></NavLogo>
-                <MenuIcon onClick={this.clickHandler}>
-                    {this.state.clicked ? <Times /> : <Bars />}
-                </MenuIcon>
-                {this.state.clicked ? 
-                    <NavMenu className="active">
-                    <NavItem><NavLink onClick={this.closeMenu} to="/projects">Projects</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/about">About Me</NavLink></NavItem>
-                    <NavItem><NavLinkMobile onClick={this.closeMenu} to="/contact">Contact</NavLinkMobile></NavItem>
-                    </NavMenu>
-                : 
-                    <NavMenu>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/projects">Projects</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/about">About Me</NavLink></NavItem>
-                    <NavItem><NavLink onClick={this.closeMenu} to="/contact">Contact</NavLink></NavItem>
-                    </NavMenu>
-                }
-                {/* <NavBtn>
-                    <NavBtnLink to='/login'>sign in</NavBtnLink>
-                </NavBtn> */}
-            </Nav>
-            </>
+            <div className={classes.root}>
+            <AppBar style={{backgroundColor: "rgba(110, 110, 110, 1)"}} position="static">
+                <Toolbar>
+                <IconButton edge="start" className={classes.menuButton} color="inherit" href="https://www.gabrielhicks.dev/" aria-label="Gabriel Hicks Icon">
+                    <NavIcon width="40px" alt="Gabriel Hicks logo" src="https://i.ibb.co/4FcHSGV/gabriel-logo.webp"/>
+                </IconButton>
+                <Typography variant="h5" style={{fontWeight: "300"}} className={classes.title}>
+                    Gabriel Hicks
+                </Typography>
+                <Button color="black" target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/">LinkedIn</Button><Button target="_blank" href="https://www.github.com/gabrielhicks/" color="black">Github</Button><Button target="_blank" href="https://gabrielhicks.medium.com/" color="black">Blog</Button>
+                </Toolbar>
+            </AppBar>
+            </div>
         )
-    }
 };
-
-export default Navbar
