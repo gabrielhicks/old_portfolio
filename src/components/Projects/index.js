@@ -7,8 +7,8 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
     root: {
         marginTop: "1vh",
-        paddingLeft: "2vw",
-        paddingRight: "2vw"
+        paddingLeft: 30,
+        // paddingRight: "2vw"
     }
 });
 

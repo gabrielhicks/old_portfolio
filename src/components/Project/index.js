@@ -12,8 +12,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles({
     root: {
-        minWidth: 345,
-        minHeight: 424,
+        minWidth: "30vw",
+        minHeight: "50vh",
         margin: "auto"
     },
     media: {
