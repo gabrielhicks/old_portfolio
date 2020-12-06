@@ -13,7 +13,7 @@ const useStyles = makeStyles({
         paddingBottom: "2vh",
     '@media only screen and (max-width: 900px)': {
         paddingRight: 16,
-        // paddingRight: 10
+        paddingRight: 0
     }
     }
 });
