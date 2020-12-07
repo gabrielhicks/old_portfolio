@@ -17,7 +17,6 @@ import {
 } from './style'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MenuBookIcon from '@material-ui/icons/MenuBook';
 
 export default function Contact() {
     const [name, setName] = useState("")
