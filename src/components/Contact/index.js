@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import emailjs from 'emailjs-com';
 import Button from '@material-ui/core/Button'
+import Icon from '@material-ui/core/Icon'
 import { 
     ContactWrapper, 
     StyledSubject, 
@@ -69,7 +70,7 @@ export default function Contact() {
             <SocialIcons>
                 <Button target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/" color="inherit"><LinkedInIcon style={{fontSize: "10vw", cursor: "pointer"}}></LinkedInIcon></Button>
                 <Button  target="_blank" href="https://www.github.com/gabrielhicks/" color="inherit"><GitHubIcon style={{fontSize: "10vw", cursor: "pointer"}}></GitHubIcon></Button>
-                <Button target="_blank" href="https://gabrielhicks.medium.com/" color="inherit"><MenuBookIcon style={{fontSize: "10vw", cursor: "pointer"}}></MenuBookIcon></Button>
+                <Button target="_blank" href="https://gabrielhicks.medium.com/" color="inherit"><Icon className={"fab fa-medium"} style={{color: "white", fontSize: "10vw"}}/></Button>
             </SocialIcons>
             </MediaGrid>
         </ContactWrapper>

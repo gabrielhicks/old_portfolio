@@ -134,6 +134,7 @@ export const SocialIcons = styled.div`
     grid-column: 2;
     justify-content: center;
     align-content: center;
+    text-align: center;
     margin: auto;
     color: white;
     display: grid;
