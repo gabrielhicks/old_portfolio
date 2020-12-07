@@ -7,6 +7,7 @@ export const ContactWrapper = styled.div`
     display: grid;
     max-height: 1300px;
     min-height: 600px;
+    align-items: center;
     justify-content: center;
 `
 export const Title = styled.h1`
@@ -18,21 +19,21 @@ export const Title = styled.h1`
 `
 
 export const StyledGrid = styled.div`
-    ${'' /* position: absolute; */}
     left: 66px;
     display: grid;
+    align-self: center;
     width: 40vw;
     margin-right: 10vw;
     margin-left: 5vw;
     grid-row: 1;
     grid-column: 1;
     @media only screen and (max-width: 900px) {
-        width: 80vw;
+        min-width: 80vw;
         grid-column: 1;
-        margin-left: 30px;
         grid-row: 1;
+        margin-left: 5vw;
         height: 100%;
-        margin-right: 10vw;
+        margin-right: 5vw;
     }
 `
 
@@ -161,7 +162,7 @@ export const MobileIconsGrid = styled.div`
 
 export const MediaGrid = styled.div`
     display: grid;
-    align-items: end;
+    align-items: center;
     margin-top: 15vh;
     margin-bottom: 15vh;
     @media only screen and (max-width: 900px) {

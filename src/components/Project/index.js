@@ -9,19 +9,36 @@ import Typography from '@material-ui/core/Typography';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import WebIcon from '@material-ui/icons/Web';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Button from '@material-ui/core/Button'
 
 const useStyles = makeStyles({
     root: {
         minWidth: "30vw",
         minHeight: "424px",
-        margin: "auto"
+        margin: "auto",
+        "& $imgColor": {
+            display: 'block'
+        },
+        "& $imgBw": {
+            display: 'none'
+        },
+        '&:hover': {
+            "& $imgColor": {
+                display: 'none'
+            },
+            "& $imgBw": {
+                display: 'block'
+            },
+        },
     },
+    imgColor: {},
+    imgBw: {},
     '& .MuiTouchRipple-root': {
         maxWidth: "200%"
     },
     media: {
         height: 240,
-    },
+    }
 });
 export default function Project(props) {
     const classes = useStyles();
@@ -29,8 +46,21 @@ export default function Project(props) {
     <Card className={classes.root}>
         <CardActionArea>
             <CardMedia
-                className={classes.media}
+                component={Button}
+                target="_blank" 
+                rel="noreferrer" 
+                href={`${props.project.click}`}
+                className={`${classes.media} ${classes.imgBw}`}
                 image={`${props.project.image}`}
+                title={`${props.project.title}`}
+            />
+            <CardMedia
+                component={Button}
+                target="_blank" 
+                rel="noreferrer" 
+                href={`${props.project.click}`}
+                className={`${classes.media} ${classes.imgColor}`}
+                image={`${props.project.image2}`}
                 title={`${props.project.title}`}
             />
             <CardContent>
@@ -38,7 +68,8 @@ export default function Project(props) {
                     {props.project.name}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    {props.project.description}
+                    {props.project.description}<br></br>
+                    {/* <i>{props.project.tech}</i> */}
                 </Typography>
             </CardContent>
         </CardActionArea>
