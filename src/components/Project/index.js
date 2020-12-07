@@ -16,23 +16,7 @@ const useStyles = makeStyles({
         minWidth: "30vw",
         minHeight: "424px",
         margin: "auto",
-        "& $imgColor": {
-            display: 'block'
-        },
-        "& $imgBw": {
-            display: 'none'
-        },
-        '&:hover': {
-            "& $imgColor": {
-                display: 'none'
-            },
-            "& $imgBw": {
-                display: 'block'
-            },
-        },
     },
-    imgColor: {},
-    imgBw: {},
     '& .MuiTouchRipple-root': {
         maxWidth: "200%"
     },
@@ -50,16 +34,7 @@ export default function Project(props) {
                 target="_blank" 
                 rel="noreferrer" 
                 href={`${props.project.click}`}
-                className={`${classes.media} ${classes.imgBw}`}
-                image={`${props.project.image}`}
-                title={`${props.project.title}`}
-            />
-            <CardMedia
-                component={Button}
-                target="_blank" 
-                rel="noreferrer" 
-                href={`${props.project.click}`}
-                className={`${classes.media} ${classes.imgColor}`}
+                className={`${classes.media}`}
                 image={`${props.project.image2}`}
                 title={`${props.project.title}`}
             />
