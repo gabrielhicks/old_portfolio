@@ -9,7 +9,7 @@
         "back": "https://github.com/gabrielhicks/tutorial_heaven_api",
         "description": "Web forum with live chat designed to encourage new developers to collaborate on projects.",
         "tech": "React, Redux, Rails, Framer Motion, PostgreSQL, JWT, BCryrpt, ActionCable",
-        "click": "https://youtu.be/H87iCP8XYHU",
+        "click": "https://tutorial-heaven.netlify.app/",
         "url": "https://tutorial-heaven.netlify.app/"
     },
     {
