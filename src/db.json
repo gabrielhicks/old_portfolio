@@ -10,7 +10,7 @@
         "description": "Web forum with live chat designed to encourage new developers to collaborate on projects.",
         "tech": "React, Redux, Rails, Framer Motion, PostgreSQL, JWT, BCryrpt, ActionCable",
         "click": "https://youtu.be/H87iCP8XYHU",
-        "url": ""
+        "url": "https://tutorial-heaven.netlify.app/"
     },
     {
         "id": 2,
