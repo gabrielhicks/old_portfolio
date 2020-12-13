@@ -34,7 +34,7 @@ export default function NavBar() {
                 <Typography variant="h1" alt="Gabriel Hicks" aria-label="Gabriel Hicks" style={{fontWeight: "300", fontSize: "12px"}} className={classes.title}>
                     {/* Gabriel Hicks */}
                 </Typography>
-                <Button color="black" target="_blank" href="https://drive.google.com/file/d/1sqW891XuEEId5TkrqlSwoG2LmM4GHEwH/view?usp=sharing">Resume</Button><Button color="black" target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/">LinkedIn</Button><Button target="_blank" href="https://www.github.com/gabrielhicks/" color="black">Github</Button><Button target="_blank" href="https://gabrielhicks.medium.com/" color="black">Blog</Button>
+                <Button color="black" target="_blank" href="https://pdfhost.io/v/6MxCSbMTj_HicksResume2020_LaTeXpdf.pdf">Resume</Button><Button color="black" target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/">LinkedIn</Button><Button target="_blank" href="https://www.github.com/gabrielhicks/" color="black">Github</Button><Button target="_blank" href="https://gabrielhicks.medium.com/" color="black">Blog</Button>
                 </Toolbar>
             </AppBar>
             </div>
