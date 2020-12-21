@@ -1,15 +1,13 @@
-import db from '../db.json'
+import db from '../db.json';
 
-function  projectReducer(state = db, action) {
-
+function projectReducer(state = db, action) {
     switch (action.type) {
-
         case 'FETCH_PROJECTS':
-            return {...state, projects: db};
+            return { ...state, projects: db };
 
-        default: 
+        default:
             return state;
     }
 }
 
-export default projectReducer
+export default projectReducer;

@@ -1,8 +1,8 @@
-import React from 'react'
-import Contact from '../Contact'
-import Hero from '../Hero'
-import Projects from '../Projects/index'
-import {IndexWrapper} from './style'
+import React from 'react';
+import Contact from '../Contact';
+import Hero from '../Hero';
+import Projects from '../Projects/index';
+import { IndexWrapper } from './style';
 
 export default function Index() {
     return (
@@ -11,5 +11,5 @@ export default function Index() {
             <Projects />
             <Contact />
         </IndexWrapper>
-    )
+    );
 }

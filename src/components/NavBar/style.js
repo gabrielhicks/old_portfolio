@@ -1,5 +1,3 @@
 import styled from 'styled-components';
 
-export const NavIcon = styled.img`
-
-`
+export const NavIcon = styled.img``;

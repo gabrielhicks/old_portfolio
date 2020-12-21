@@ -5,38 +5,77 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
-import {NavIcon} from './style';
+import { NavIcon } from './style';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        backgroundColor: "rgba(110, 110, 110, 1)",
+        backgroundColor: 'rgba(110, 110, 110, 1)',
         flexGrow: 1,
     },
     menuButton: {
-        color: "black",
+        color: 'black',
         marginRight: theme.spacing(2),
     },
     title: {
-        color: "black",
+        color: 'black',
         flexGrow: 1,
     },
 }));
 
 export default function NavBar() {
     const classes = useStyles();
-        return (
-            <div className={classes.root}>
-            <AppBar style={{backgroundColor: "rgba(110, 110, 110, 1)"}} position="static">
+    return (
+        <div className={classes.root}>
+            <AppBar
+                style={{ backgroundColor: 'rgba(110, 110, 110, 1)' }}
+                position='static'>
                 <Toolbar>
-                <IconButton edge="start" className={classes.menuButton} color="inherit" href="https://www.gabrielhicks.dev/" aria-label="Gabriel Hicks Icon">
-                    <NavIcon width="40px" alt="Gabriel Hicks logo" src="https://i.ibb.co/4FcHSGV/gabriel-logo.webp"/>
-                </IconButton>
-                <Typography variant="h1" alt="Gabriel Hicks" aria-label="Gabriel Hicks" style={{fontWeight: "300", fontSize: "12px"}} className={classes.title}>
-                    {/* Gabriel Hicks */}
-                </Typography>
-                <Button color="black" target="_blank" href="https://pdfhost.io/v/6MxCSbMTj_HicksResume2020_LaTeXpdf.pdf">Resume</Button><Button color="black" target="_blank" href="https://www.linkedin.com/in/gabrieljhicks/">LinkedIn</Button><Button target="_blank" href="https://www.github.com/gabrielhicks/" color="black">Github</Button><Button target="_blank" href="https://gabrielhicks.medium.com/" color="black">Blog</Button>
+                    <IconButton
+                        edge='start'
+                        className={classes.menuButton}
+                        color='inherit'
+                        href='https://www.gabrielhicks.dev/'
+                        aria-label='Gabriel Hicks Icon'>
+                        <NavIcon
+                            width='40px'
+                            alt='Gabriel Hicks logo'
+                            src='https://i.ibb.co/4FcHSGV/gabriel-logo.webp'
+                        />
+                    </IconButton>
+                    <Typography
+                        variant='h1'
+                        alt='Gabriel Hicks'
+                        aria-label='Gabriel Hicks'
+                        style={{ fontWeight: '300', fontSize: '12px' }}
+                        className={classes.title}>
+                        {/* Gabriel Hicks */}
+                    </Typography>
+                    <Button
+                        color='black'
+                        target='_blank'
+                        href='https://pdfhost.io/v/6MxCSbMTj_HicksResume2020_LaTeXpdf.pdf'>
+                        Resume
+                    </Button>
+                    <Button
+                        color='black'
+                        target='_blank'
+                        href='https://www.linkedin.com/in/gabrieljhicks/'>
+                        LinkedIn
+                    </Button>
+                    <Button
+                        target='_blank'
+                        href='https://www.github.com/gabrielhicks/'
+                        color='black'>
+                        Github
+                    </Button>
+                    <Button
+                        target='_blank'
+                        href='https://gabrielhicks.medium.com/'
+                        color='black'>
+                        Blog
+                    </Button>
                 </Toolbar>
             </AppBar>
-            </div>
-        )
-};
+        </div>
+    );
+}
